@@ -1,0 +1,13 @@
+.responseItem {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 100px auto;
+  background-color: #ccc;
+  gap: 20px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.responseItem > * {
+  margin: 0;
+}
